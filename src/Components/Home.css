@@ -1,0 +1,121 @@
+.Home{
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #004788;
+}
+
+.navbar{
+	max-height: 80px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar img{
+	max-height: 40px;
+}
+
+.profile{
+	border-radius: 50%;
+}
+
+.sidebar{
+	max-width: 20%;
+	flex: 1;
+	background-color: white;
+}
+
+.members{
+	max-width: 100%;
+}
+
+.sidebar h1{
+	margin: 0;
+	padding: 10px;
+}
+
+.sidebar > p{
+	margin: 0;
+	text-align: center;
+	border-top: 2px solid #004788;
+	padding-top: 10px;
+}
+
+.sidebar button{
+	width: 90%;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.member{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	align-items: center;
+	border-top: 2px solid #004788;
+	border-bottom: 2px solid #004788;
+}
+
+.member img{
+	max-height: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.mainPage{
+	display: flex;
+	justify-content: space-evenly;
+	border-top: 2px solid white;
+	padding-top: 10px;
+}
+
+.rightbar{
+	max-width: 70%;
+	flex: 2;
+}
+
+.addPost{
+	max-width: 80%;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.rightbar form{
+	margin-bottom: 20px;
+}
+
+.addPost input{
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 5px;
+	border-color: white;
+}
+
+.inputText{
+	width: 90%;
+	padding-left: 10px;
+}
+
+
+.inputText:focus{
+	outline: none;
+}
+
+.posts{
+	background-color: white;
+	max-width: 80%;
+/*	padding: 10px;*/
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.posts p{
+	padding: 10px;
+	margin: 0;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #004788;
+}
+.posts img{
+	max-width: 100%;
+}
+

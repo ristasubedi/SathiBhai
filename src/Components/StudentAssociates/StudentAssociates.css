@@ -1,0 +1,40 @@
+.StudentAssociates{
+	color: black;
+	text-align: center;
+	display: grid;
+  	place-items: center;
+}
+
+.assocationLogo{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 70%;
+}
+
+.association{
+	max-width: 20%;
+	display: grid;
+	place-items: center;
+	background-color: #004788;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	font-weight: 600;
+}
+
+.association a{
+	text-decoration: none;
+	color: white;
+}
+
+.association img{
+	max-width: 70%;
+}
+
+.association p{
+	align-self: end;
+}
